@@ -1,0 +1,56 @@
+
+/* Size of Images */
+
+/* img{ */
+    /* width: 300px; */
+    /* height: 300px; */
+/* } */
+
+/* Aligning  Images */
+/* img{
+    float: right;
+    top: 0;
+    left: 0;
+}
+
+img{
+    margin-left: 300px;
+} */
+
+/* Centering images */
+/* img{
+    display: block;
+    margin: auto;
+} */
+
+/* Bcakground Images */
+/* body{
+background-image: url(./images/car.jpg);
+background-repeat: no-repeat;
+
+/* Background Repeat */
+/* body{ */
+    /* background-image: url(./images/car.jpg);
+    font-size: xx-large;
+    background-attachment: fixed; */
+/* } */ 
+
+/* Background position */
+/* body{
+    background-image: url(./images/car.jpg);
+    background-position: center ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+
+} */
+/* Background Shorthand */
+body{
+background: white  no-repeat fixed right ;
+
+}
+
+img:hover{
+    background-position: 156px ;
+cursor: pointer;
+}
