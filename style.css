@@ -45,12 +45,48 @@ background-repeat: no-repeat;
 
 } */
 /* Background Shorthand */
-body{
-background: white  no-repeat fixed right ;
+/* body{ */
+/* background: white  no-repeat fixed right ;
 
 }
 
 img:hover{
     background-position: 156px ;
 cursor: pointer;
+} */
+
+
+
+/* Linear Gradient */
+/* body{ */
+/* background-image: linear-gradient(red yellow); */
+/* height: 100vh; */
+/* } */
+
+/* #grad1 {
+    height: 300px;
+    width: 300px;
+    /* background-color: red; For browsers that do not support gradients */
+    /* background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+border: 1px solid  yellow;
+border-radius: 50%;
+margin: auto;
+    
+    } */ */
+
+    /* Radial gradient */
+/* #grad1{
+    background-image: radial-gradient(red, yellow, green);
+    height: 300px;
+    width: 300px;
+
+} */
+
+/* Conic Gradient */
+#grad1{
+
+    height: 200px;
+    width: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: conic-gradient(red, yellow, green);
 }
